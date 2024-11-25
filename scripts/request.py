@@ -1,16 +1,16 @@
 # This script will request the data through the iNaturalist API and store it as JSON files
+# Once you get the JSON files, pandas can be used to manipulate dataframes for visualizations
 
 # start with imports
-import requests
-import pandas as pd
-import json
-import os
+import requests # talk to API from iNaturalist
+import json # used here for a prettier output 
+import os # navitating through directories
 
 # add url
 base_url = "https://api.inaturalist.org/v1"
 
 # add iNaturalist user
-user = "d_gonzalez"
+user = "[your_user]"
 
 # define request function
 def get_data(endpoint, params={}):
@@ -23,35 +23,51 @@ def get_data(endpoint, params={}):
         print(f"Error getting {endpoint}: {e}")
         return None
     
+# get all data from all pages 
+# required as without pagination, you can get a max of 200 results
+def get_all_pages(endpoint, base_params={}):
+    all_results = []
+    page = 1
+    while True:
+        print(f"Getting page {page} of {endpoint}...")
+        params = {**base_params, "page": page, "per_page": 200}
+        data = get_data(endpoint, params)
+        if data and "results" in data:
+            results = data["results"]
+            all_results.extend(results)
+            if len(results) < 200:
+                break
+            page += 1
+        else:
+            break
+    print(f"Retrieved {len(all_results)} total results from {endpoint}.")
+    return all_results
+
 # store json
 def to_json(data, filename):
     try:
-        # # Ensure the directory exists
-        # os.makedirs(os.path.join("..", "files", "raw"), exist_ok=True)
         file_path = os.path.join(".", "files", "raw", filename)
+        
         with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
+            json.dump(data, f, ensure_ascii=False, indent=4)  # Pretty-print JSON
         print(f"Data saved to {file_path}")
+
     except Exception as e:
         print(f"Error saving to {file_path}: {e}")
 
 # get observations
 def get_observations(user):
-    print("Getting my observations...")
-    params = {"user_id": user, 
-              "per_page": 30}
-    data = get_data("observations", params)
-    return data.get("results", []) if data else []
+    print("Getting all observations...")
+    params = {"user_id": user}
+    return get_all_pages("observations", params)
 
 # get ids
 def get_ids(user):
-    print("Getting my ids...")
-    params = {"user_id": user, 
-              "per_page": 30}
-    data = get_data("identifications", params)
-    return data.get("results", []) if data else []
+    print("Getting all identifications...")
+    params = {"user_id": user}
+    return get_all_pages("identifications", params)
 
-#get profile
+# get profile
 def get_profile(user):
     print("Getting your profile...")
     params = {"q": user}
