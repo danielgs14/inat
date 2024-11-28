@@ -1,0 +1,350 @@
+quality_grade,observed_on,identifications_most_agree,num_identification_agreements,community_taxon_id,taxon.name,lat,lon
+research,2018-03-24,True,1,210285.0,Haliotis tuberculata,28.5766924755,-16.329363585
+needs_id,2018-03-24,False,0,,Balanophyllia regia,28.5766924755,-16.329363585
+research,2018-03-24,True,1,255717.0,Coscinasterias tenuispina,28.5766924755,-16.329363585
+research,2018-03-24,False,0,108409.0,Parablennius parvicornis,28.5766924755,-16.329363585
+research,2018-03-24,False,0,255717.0,Coscinasterias tenuispina,28.5766924755,-16.329363585
+research,2018-03-24,True,1,50972.0,Thalassoma pavo,28.5766924755,-16.329363585
+needs_id,2018-03-24,True,2,774993.0,Echinacea,28.5766924755,-16.329363585
+research,2018-03-24,False,0,48032.0,Paracentrotus lividus,28.5766924755,-16.329363585
+needs_id,2018-03-24,True,2,813978.0,Enthemonae,28.5766924755,-16.329363585
+research,2018-03-24,False,0,118895.0,Anemonia viridis,28.5766924755,-16.329363585
+research,2018-03-24,True,2,117302.0,Physalia physalis,28.5766924755,-16.329363585
+research,2018-03-24,False,0,48032.0,Paracentrotus lividus,28.5766924755,-16.329363585
+research,2018-03-24,False,0,48032.0,Paracentrotus lividus,28.5766924755,-16.329363585
+needs_id,2018-03-24,True,1,775804.0,Aplysia punctata,28.5766924755,-16.329363585
+research,2018-03-24,True,1,255717.0,Coscinasterias tenuispina,28.5766924755,-16.329363585
+research,2018-03-24,True,1,118895.0,Anemonia viridis,28.5766924755,-16.329363585
+research,2018-03-24,True,1,1256672.0,Similiparma lurida,28.5766924755,-16.329363585
+research,2018-03-24,False,0,255717.0,Coscinasterias tenuispina,28.5766924755,-16.329363585
+needs_id,2018-03-24,False,0,,Balanophyllia regia,28.5766924755,-16.329363585
+research,2018-03-24,True,1,50543.0,Aplysia dactylomela,28.5766924755,-16.329363585
+needs_id,2019-07-30,False,0,,Metridium,48.5455569954,-123.0130950756
+needs_id,2019-07-31,False,0,,Haliclystus sanjuanensis,48.4509722222,-122.9621361111
+research,2019-07-22,False,0,47499.0,Armina californica,48.5455027778,-123.0134416667
+needs_id,2019-08-12,False,0,,Urticina eques,48.5456194444,-123.0135416667
+needs_id,2019-08-11,False,0,,Haminoea vesicula,48.5457916667,-123.0129916667
+needs_id,2019-07-31,False,0,,Clathria pennata,48.4507305556,-122.9624472222
+needs_id,2019-07-31,False,0,,Leptasterias hexactis,48.4509722222,-122.9621361111
+needs_id,2019-07-31,True,1,49052.0,Anthopleura elegantissima,48.4509472222,-122.9620361111
+research,2019-07-31,True,3,84265.0,Evasterias troschelii,48.4509666667,-122.9620277778
+needs_id,2019-07-31,True,1,47797.0,Anthopleura elegantissima,48.4507777778,-122.9619305556
+needs_id,2019-07-31,False,0,,Pollicipes polymerus,48.4514888889,-122.9620972222
+research,2019-07-31,False,0,49053.0,Cryptochiton stelleri,48.4508944444,-122.9618694444
+needs_id,2019-07-31,False,0,,Haliclona,48.4514916667,-122.9621361111
+needs_id,2019-07-31,False,0,,Halichondria panicea,48.4515,-122.9620444444
+needs_id,2019-07-31,False,0,,Actiniaria,48.4501833333,-122.9618916667
+needs_id,2019-07-31,True,1,49052.0,Anthopleura elegantissima,48.4516805556,-122.9619138889
+needs_id,2019-07-31,False,0,,Actiniaria,48.4518611111,-122.9619916667
+needs_id,2019-07-31,False,0,,Actiniaria,48.45165,-122.9620583333
+needs_id,2019-07-31,False,0,,Leptasterias hexactis,48.4517777778,-122.9618833333
+needs_id,2019-07-31,False,0,,Eupentacta quinquesemita,48.4517777778,-122.9618833333
+needs_id,2019-07-31,False,0,,Leptasterias hexactis,48.4517777778,-122.9618833333
+needs_id,2019-07-31,False,0,,Strongylocentrotus,48.4517694444,-122.9619
+needs_id,2019-07-31,True,1,48036.0,Strongylocentrotus purpuratus,48.4518,-122.9618444444
+needs_id,2019-07-31,False,0,,Amphiodia occidentalis,48.4518861111,-122.9618222222
+needs_id,2019-07-31,False,0,,Leptasterias hexactis,48.4518861111,-122.9618527778
+research,2019-07-31,False,0,47469.0,Doris montereyensis,48.4518361111,-122.9615333333
+needs_id,2019-07-31,False,0,,Anthopleura elegantissima,48.4520138889,-122.9619222222
+needs_id,2019-07-31,False,0,,Anthopleura elegantissima,48.4519527778,-122.9618611111
+needs_id,2019-07-31,False,0,,Mytilus californianus,48.4518916667,-122.9620361111
+needs_id,2019-07-31,False,0,,Anthopleura elegantissima,48.4522472222,-122.9618
+needs_id,2019-07-31,True,2,1551664.0,Henricia leviuscula,48.4525555556,-122.9622027778
+needs_id,2019-07-31,True,2,47795.0,Urticina,48.4526166667,-122.9622944444
+needs_id,2019-07-31,False,0,,Eupentacta quinquesemita,48.4527083333,-122.9623194444
+needs_id,2019-07-31,False,0,,Eupentacta quinquesemita,48.4527472222,-122.9624472222
+needs_id,2019-07-31,False,0,,Asteroidea,48.4527083333,-122.9623194444
+research,2019-07-31,False,0,117695.0,Cucumaria miniata,48.4528722222,-122.9624777778
+research,2019-07-30,False,0,508237.0,Diaulula odonoghuei,48.5216777778,-123.0142527778
+needs_id,2019-07-30,False,0,,Cucumaria miniata,48.5216333333,-123.0141666667
+research,2019-07-30,False,0,63382.0,Dermasterias imbricata,48.5216722222,-123.0138638889
+research,2019-07-30,False,0,48035.0,Strongylocentrotus purpuratus,48.5216222222,-123.0135805556
+needs_id,2019-07-30,False,0,,Amphiodia occidentalis,48.52155,-123.0135027778
+research,2019-07-30,False,0,48035.0,Strongylocentrotus purpuratus,48.5216777778,-123.0142138889
+research,2019-07-30,False,0,117633.0,Mopalia muscosa,48.486,-123.0691972222
+research,2019-07-30,False,0,47632.0,Katharina tunicata,48.4859166667,-123.0691611111
+needs_id,2019-07-30,True,1,194016.0,Maldanidae,48.4818277778,-123.0717611111
+needs_id,2019-07-30,False,0,,Leptosynapta clarki,48.4818416667,-123.0717388889
+research,2019-07-30,False,0,786996.0,Cyanea ferruginea,48.4818694444,-123.0720972222
+needs_id,2019-06-06,False,0,,Cliona tenuis,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Porifera,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Cliona tenuis,21.8210984213,-89.5442116698
+research,2019-06-06,True,1,52293.0,Pareques acuminatus,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Opsanus beta,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Pterogorgia,21.8210984213,-89.5442116698
+research,2019-06-06,True,1,49269.0,Diodon holocanthus,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Porifera,21.8210984213,-89.5442116698
+research,2019-06-06,False,0,620587.0,Hypoplectrus ecosur,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Porifera,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Porifera,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Ophiuroidea,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Echinaster spinulosus,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Lytechinus variegatus,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Echinaster spinulosus,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Clypeaster subdepressus,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Echinaster spinulosus,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Diplectrum formosum,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Clypeaster subdepressus,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Clypeaster subdepressus,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Diplectrum formosum,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Lytechinus variegatus,21.8210984213,-89.5442116698
+needs_id,2019-06-06,False,0,,Lytechinus variegatus,21.8210984213,-89.5442116698
+needs_id,2017-03-29,False,0,,Porites,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Sabellidae,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Porites,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Pavona,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Telmatactis,8.5970647922,-83.3023924782
+research,2017-03-29,False,0,52555.0,Halichoeres dispilus,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Pycnogonida,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Ophiuroidea,8.5970647922,-83.3023924782
+needs_id,2017-03-29,True,1,47313.0,Gymnothorax castaneus,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Macrorhynchia philippina,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Leptogorgia,8.5970647922,-83.3023924782
+research,2017-03-29,False,0,85124.0,Johnrandallia nigrirostris,8.5970647922,-83.3023924782
+research,2017-03-29,False,0,194896.0,Gnathanodon speciosus,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Demospongiae,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Demospongiae,8.5970647922,-83.3023924782
+research,2017-03-29,False,0,97000.0,Cephalopholis panamensis,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Parapsettus panamensis,8.5970647922,-83.3023924782
+research,2017-03-29,True,2,883883.0,Styracura pacifica,8.5318100601,-83.3221831936
+needs_id,2017-03-29,False,0,,Porites,8.5970647922,-83.3023924782
+research,2017-03-29,False,0,49493.0,Thalassoma lucasanum,8.5970647922,-83.3023924782
+research,2017-03-29,False,0,132687.0,Cirrhitichthys oxycephalus,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Caryophyllia,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Carijoa riisei,8.5970647922,-83.3023924782
+needs_id,2017-03-29,False,0,,Carangidae,8.5970647922,-83.3023924782
+research,2017-03-29,False,0,96714.0,Canthigaster punctatissima,8.5970647922,-83.3023924782
+research,2017-03-29,False,0,57333.0,Bodianus diplotaenia,8.5970647922,-83.3023924782
+research,2017-03-29,False,0,95064.0,Balistes polylepis,8.5970647922,-83.3023924782
+research,2017-03-29,False,0,49493.0,Thalassoma lucasanum,8.5970647922,-83.3023924782
+research,2021-03-27,False,0,50032.0,Corambe pacifica,31.8630666667,-116.6672138889
+needs_id,2021-03-26,False,0,,Ammotheidae,31.8630201534,-116.6673815171
+needs_id,2020-02-12,False,0,,Eubranchus,31.863025,-116.6673444444
+needs_id,2020-08-23,False,0,63049.0,Nuttallina,31.8614104615,-116.6676603109
+needs_id,2021-06-01,False,0,,Caenogastropoda,31.8630611111,-116.66745
+needs_id,2021-06-08,False,0,,Megastraea undosa,31.8630011013,-116.667327717
+needs_id,2021-06-08,False,0,,Apostichopus californicus,31.8629737649,-116.667327717
+research,2020-09-15,False,0,311419.0,Neobernaya spadicea,31.8629416667,-116.6672888889
+needs_id,2020-01-31,False,0,,Kelletia kelletii,31.8629666667,-116.6674055556
+needs_id,2020-04-28,False,0,,Ophiuroidea,31.8614667004,-116.6677568704
+research,2021-03-26,True,1,48655.0,Aplysia californica,31.8614884741,-116.6677139551
+needs_id,2021-03-26,True,2,48657.0,Aplysia,31.8614884741,-116.6677139551
+needs_id,2020-10-04,True,1,49948.0,Anisotremus davidsonii,31.8621346197,-116.6580166942
+research,2020-10-04,True,1,108547.0,Paralabrax clathratus,31.8621346197,-116.6580166942
+needs_id,2020-10-04,False,0,48657.0,Aplysia,31.8621346197,-116.6580166942
+needs_id,2020-10-04,False,0,,Muricea,31.8621346197,-116.6580166942
+needs_id,2020-10-04,False,0,,Muricea,31.8621346197,-116.6580166942
+research,2020-08-23,False,0,51659.0,Anthopleura xanthogrammica,31.8614429126,-116.6678259363
+needs_id,2020-08-23,False,0,,Octopus bimaculatus,31.8614793618,-116.6678410944
+needs_id,2020-08-23,True,1,1359810.0,Clinocottus analis,31.8614793618,-116.6678410944
+needs_id,2020-08-23,True,1,1359810.0,Clinocottus analis,31.8614793618,-116.6678410944
+research,2021-02-10,False,0,49051.0,Anthopleura sola,31.8614611372,-116.6677401056
+needs_id,2019-12-26,True,1,49052.0,Anthopleura sola,31.8612833333,-116.6680305556
+needs_id,2019-12-26,False,0,56693.0,Stenoplax,31.8613333333,-116.6677694444
+needs_id,2019-12-28,False,0,,Mesocentrotus franciscanus,31.8614808425,-116.6676820311
+needs_id,2019-12-28,False,0,,Ophiuroidea,31.8616472222,-116.6674888889
+research,2019-12-26,False,0,56692.0,Stenoplax conspicua,31.8614583333,-116.6673277778
+needs_id,2019-12-28,False,0,,Strongylocentrotus purpuratus,31.8613694444,-116.667525
+needs_id,2019-12-28,False,0,,Aplysia vaccaria,31.8615388889,-116.6681277778
+needs_id,2019-12-28,False,0,,Ophiuroidea,31.861525,-116.6681277778
+needs_id,2019-12-28,False,0,,Heptacarpus,31.861525,-116.6681277778
+needs_id,2019-12-28,False,0,,Ophiuroidea,31.8615222222,-116.6681361111
+needs_id,2019-12-28,False,0,,Mytilus californianus,31.86145,-116.6678388889
+needs_id,2019-12-28,False,0,,Pollicipes polymerus,31.86145,-116.6678388889
+research,2020-02-17,False,0,47110.0,Triopha maculata,31.8630166667,-116.6673666667
+research,2020-02-15,False,0,48830.0,Patiria miniata,31.8628666667,-116.6673444444
+research,2020-02-07,False,0,48455.0,Melibe leonina,31.8630194444,-116.6673444444
+research,2017-04-29,False,0,484192.0,Chiton stokesii,10.942263,-85.7128096
+needs_id,2017-04-30,False,0,,Stomatopoda,10.9253412257,-85.800109771
+needs_id,2017-04-30,False,0,,Holothuroidea,10.9253412257,-85.800109771
+research,2017-04-30,False,0,883908.0,Tonicia forbesii,10.9253412257,-85.800109771
+needs_id,2017-04-30,False,0,355684.0,Iphione,10.9253412257,-85.800109771
+needs_id,2017-04-30,False,0,,Pinctada mazatlanica,10.9253412257,-85.800109771
+needs_id,2017-04-30,False,0,,Porifera,10.9253412257,-85.800109771
+needs_id,2017-04-30,False,0,246693.0,Gemophos,10.9253412257,-85.800109771
+research,2017-04-30,False,0,883908.0,Tonicia forbesii,10.9253412257,-85.800109771
+needs_id,2017-04-30,False,0,,Holothuria impatiens,10.9253412257,-85.800109771
+needs_id,2017-04-30,False,0,,Eucidaris,10.9253412257,-85.800109771
+research,2017-04-30,False,0,785634.0,Exaiptasia diaphana,10.9253412257,-85.800109771
+needs_id,2017-04-30,False,0,,Pennaria disticha,10.9253412257,-85.800109771
+needs_id,2017-04-30,False,0,,Holothuria impatiens,10.9253412257,-85.800109771
+needs_id,2017-04-30,False,0,,Eucidaris,10.9253412257,-85.800109771
+needs_id,2017-04-30,False,0,49282.0,Sabellidae,10.9253412257,-85.800109771
+needs_id,2017-04-30,False,0,,Neaxius,10.9253412257,-85.800109771
+research,2017-04-29,False,0,49908.0,Pleurobranchus areolatus,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Pseudocnus californicus,10.942263,-85.7128096
+research,2017-04-29,False,0,338499.0,Rhopalaea birkelandi,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Eucidaris thouarsii,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Pseudocnus californicus,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Holothuria,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Dendrochirotida,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Actiniaria,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Ctenophora,10.942263,-85.7128096
+research,2017-04-29,False,0,736005.0,Bunodosoma grande,10.942263,-85.7128096
+research,2017-04-29,False,0,195811.0,Toxopneustes roseus,10.942263,-85.7128096
+research,2017-04-29,False,0,54441.0,Echidna nebulosa,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Eucidaris thouarsii,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Ophiuroidea,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Dendrochirotida,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Catolasmus pilsbryi,10.942263,-85.7128096
+research,2017-04-29,False,0,85111.0,Muraena lentiginosa,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Echinometra vanbrunti,10.942263,-85.7128096
+research,2017-04-29,False,0,107645.0,Ophioblennius steindachneri,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Pennaria,10.942263,-85.7128096
+research,2017-04-29,False,0,195811.0,Toxopneustes roseus,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Stegastes acapulcoensis,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Diadema mexicanum,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Carangidae,10.942263,-85.7128096
+research,2017-04-29,False,0,67762.0,Tripneustes depressus,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Echinometra vanbrunti,10.942263,-85.7128096
+research,2017-04-29,True,3,1303461.0,Aetobatus laticeps,10.942263,-85.7128096
+research,2017-04-29,False,0,56775.0,Pentaceraster cumingi,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Octopus,10.942263,-85.7128096
+research,2017-04-29,False,0,67762.0,Tripneustes depressus,10.942263,-85.7128096
+research,2017-04-29,False,0,85111.0,Muraena lentiginosa,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Euapta godeffroyi,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Diadema mexicanum,10.942263,-85.7128096
+research,2017-04-29,False,0,57399.0,Fistularia commersonii,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Eucidaris thouarsii,10.942263,-85.7128096
+needs_id,2017-04-29,False,0,,Diadema mexicanum,10.942263,-85.7128096
+research,2017-04-29,False,0,785634.0,Exaiptasia diaphana,10.942263,-85.7128096
+research,2017-04-29,False,0,785634.0,Exaiptasia diaphana,10.942263,-85.7128096
+needs_id,2017-04-30,False,0,,Placospongia,10.9209212,-85.7999758
+needs_id,2017-04-30,False,0,,Ophiuroidea,10.9209212,-85.7999758
+needs_id,2017-04-30,False,0,,Tripneustes depressus,10.9209212,-85.7999758
+research,2024-05-26,False,0,85111.0,Muraena lentiginosa,10.853905667,-85.9544582591
+research,2024-05-26,True,1,132687.0,Cirrhitichthys oxycephalus,10.853905667,-85.9544582591
+research,2024-05-26,False,0,102035.0,Halichoeres chierchiae,10.853905667,-85.9544582591
+research,2024-05-26,True,1,56797.0,Holacanthus passer,10.853905667,-85.9544582591
+needs_id,2024-05-26,False,0,,Cucumaria flamma,10.853905667,-85.9544582591
+research,2024-05-26,True,1,121197.0,Oxycirrhites typus,10.853905667,-85.9544582591
+research,2024-05-26,False,0,96714.0,Canthigaster punctatissima,10.853905667,-85.9544582591
+needs_id,2024-05-26,False,0,,Leptogorgia,10.853905667,-85.9544582591
+needs_id,2024-05-26,False,0,,Leptogorgia,10.853905667,-85.9544582591
+research,2024-05-26,False,0,97000.0,Cephalopholis panamensis,10.853905667,-85.9544582591
+needs_id,2024-05-26,False,0,,Leptogorgia alba,10.853905667,-85.9544582591
+needs_id,2024-05-26,True,1,47313.0,Muraena lentiginosa,10.853905667,-85.9544582591
+research,2024-05-26,False,0,111903.0,Rypticus bicolor,10.853905667,-85.9544582591
+needs_id,2024-05-26,False,0,,Holothuria fuscocinerea,10.853905667,-85.9544582591
+research,2024-05-26,True,1,1091442.0,Aplysina gerardogreeni,10.853905667,-85.9544582591
+needs_id,2024-05-26,False,0,,Tubastraea coccinea,10.853905667,-85.9544582591
+needs_id,2024-05-26,False,0,,Diadema mexicanum,10.853905667,-85.9544582591
+needs_id,2024-05-26,False,0,,Tubastraea coccinea,10.853905667,-85.9544582591
+needs_id,2024-05-26,True,1,47313.0,Muraena clepsydra,10.853905667,-85.9544582591
+needs_id,2024-05-26,False,0,47530.0,Porites,10.853905667,-85.9544582591
+needs_id,2024-05-26,False,0,,Holothuria fuscocinerea,10.853905667,-85.9544582591
+research,2024-05-26,True,1,623966.0,Mobula birostris,10.9274725084,-85.9213088285
+research,2024-05-26,False,0,67529.0,Epinephelus labriformis,10.853905667,-85.9544582591
+research,2024-05-26,False,0,112499.0,Serranus psittacinus,10.853905667,-85.9544582591
+needs_id,2024-05-26,False,0,,Pinctada mazatlanica,10.853905667,-85.9544582591
+research,2024-05-26,True,3,84996.0,Carcharhinus leucas,10.9501970992,-85.8922836336
+needs_id,2024-03-03,False,0,,Stegastes acapulcoensis,11.025629,-85.751292
+needs_id,2024-03-03,False,0,,Canthigaster punctatissima,11.025629,-85.751292
+needs_id,2024-03-03,False,0,,Diadema mexicanum,11.025629,-85.751292
+needs_id,2024-03-03,False,0,,Dendrochirotida,11.025629,-85.751292
+needs_id,2024-03-03,False,0,,Holothuroidea,10.942263,-85.7128096
+needs_id,2024-03-03,False,0,,Echinometra vanbrunti,11.025629,-85.751292
+research,2024-03-03,False,0,736005.0,Bunodosoma grande,11.025629,-85.751292
+needs_id,2024-03-03,False,0,,Pocillopora,10.942263,-85.7128096
+needs_id,2024-03-03,False,0,,Azurina atrilobata,10.942263,-85.7128096
+needs_id,2024-03-03,False,0,,Pavona gigantea,10.942263,-85.7128096
+research,2024-03-03,False,0,195829.0,Nidorellia armata,10.942263,-85.7128096
+research,2024-03-03,False,0,57399.0,Fistularia commersonii,10.942263,-85.7128096
+research,2024-03-03,False,0,83318.0,Arothron meleagris,10.942263,-85.7128096
+needs_id,2024-03-03,False,0,,Diadema mexicanum,10.942263,-85.7128096
+needs_id,2024-03-03,False,0,,Synodontidae,11.025629,-85.751292
+needs_id,2024-03-03,False,0,,Octopoda,11.025629,-85.751292
+needs_id,2024-03-02,False,0,,Naticidae,10.9737363,-85.7461548
+research,2024-03-02,False,0,244078.0,Malea ringens,10.9737363,-85.7461548
+research,2024-03-02,True,3,779273.0,Stellamedusa ventana,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,47492.0,Terebellidae,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Serpulidae,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Cucumaria flamma,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Serpulidae,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Botrylloides niger,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Pyrosoma,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Bivalvia,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Tubastraea coccinea,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Pyrosomatida,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,47492.0,Terebellidae,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Toxopneustes roseus,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Eucidaris thouarsii,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Phataria unifascialis,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Leptogorgia alba,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Cucumaria flamma,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Ophiuroidea,10.9737363,-85.7461548
+research,2024-03-02,True,4,779273.0,Stellamedusa ventana,10.9737363,-85.7461548
+research,2024-03-02,False,0,195311.0,Stenorhynchus debilis,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Pyrosomatida,10.9737363,-85.7461548
+research,2024-03-02,True,2,1230992.0,Chromolaichma sedna,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Diadema mexicanum,10.9737363,-85.7461548
+needs_id,2024-03-02,False,0,,Nidorellia armata,10.9737363,-85.7461548
+needs_id,2024-05-25,False,0,,Pennaria disticha,10.9443855311,-85.7125593335
+needs_id,2024-05-25,False,0,,Stegastes,10.9437956433,-85.7111002118
+research,2024-05-25,True,2,106237.0,Muraena clepsydra,10.9449754176,-85.7129026562
+needs_id,2024-05-25,False,0,,Toxopneustes roseus,10.9436271037,-85.7109285504
+needs_id,2024-05-25,False,0,,Toxopneustes roseus,10.9441327222,-85.711872688
+research,2024-05-25,False,0,85111.0,Muraena lentiginosa,10.9439641828,-85.7133318097
+needs_id,2024-05-25,False,0,,Cephalopholis,10.9443855311,-85.7129884869
+needs_id,2024-05-25,False,0,,Leptogorgia alba,10.9444698006,-85.7133318097
+research,2024-05-25,False,0,338499.0,Rhopalaea birkelandi,10.9446383397,-85.7127309948
+needs_id,2024-05-25,False,0,,Toxopneustidae,10.9449754176,-85.7133318097
+needs_id,2024-05-25,False,0,,Pavona gigantea,10.9444698006,-85.7142759472
+needs_id,2024-05-25,False,0,,Toxopneustes roseus,10.9453124951,-85.7145334393
+needs_id,2024-05-25,False,0,,Eucidaris thouarsii,10.9461773805,-85.715659543
+needs_id,2024-05-25,False,0,,Clathria,10.945059687,-85.7138467938
+needs_id,2024-05-25,False,0,,Pavona gigantea,10.9448700611,-85.713085462
+needs_id,2024-05-25,False,0,,Phataria unifascialis,10.9448700611,-85.7131712927
+needs_id,2024-05-25,False,0,,Isostichopus fuscus,10.8074416368,-85.7754379417
+needs_id,2024-05-25,False,0,,Phataria unifascialis,10.9447857917,-85.7134287847
+needs_id,2024-05-25,False,0,,Tubastraea coccinea,10.9442801744,-85.7136004461
+needs_id,2024-05-25,False,0,,Clathria,10.9437745562,-85.711712171
+needs_id,2024-05-25,False,0,,Eucidaris thouarsii,10.9441959047,-85.7145445837
+needs_id,2024-05-25,False,0,,Cucumaria flamma,10.9445340915,-85.714566039
+research,2024-05-25,False,0,144017.0,Arothron hispidus,10.9435410534,-85.7136648157
+needs_id,2024-05-25,False,0,,Cucumaria flamma,10.943609365,-85.7135789827
+needs_id,2024-05-25,False,0,,Toxopneustes roseus,10.9434089174,-85.713235656
+needs_id,2024-05-25,False,0,,Anthozoa,10.9431823257,-85.7119052789
+needs_id,2024-05-25,False,0,,Ophiuroidea,10.942897683,-85.7131927353
+needs_id,2024-05-25,False,0,,Eucidaris thouarsii,10.9432034598,-85.7106738953
+needs_id,2024-05-25,False,0,,Pharia pyramidata,10.9421074776,-85.7133083443
+needs_id,2024-05-25,False,0,,Ascidia sideralis,10.9448841131,-85.7120274141
+needs_id,2024-05-25,False,0,,Ascidia sideralis,10.9445470351,-85.71151243
+needs_id,2024-05-25,False,0,,Rhopalaea birkelandi,10.9445470351,-85.7117699221
+needs_id,2024-05-25,False,0,,Tubastraea coccinea,10.9442942264,-85.7117699221
+needs_id,2024-05-25,False,0,,Tubastraea coccinea,10.9447155742,-85.71151243
+needs_id,2024-05-25,False,0,,Tubastraea coccinea,10.9445470351,-85.7115982607
+needs_id,2024-05-25,False,0,,Telmatactis,10.9445470351,-85.7112549379
+needs_id,2024-05-25,False,0,,Pavona gigantea,10.9447155742,-85.7115982607
+needs_id,2024-05-25,False,0,,Octopus,10.9446313047,-85.7112549379
+needs_id,2024-05-25,False,0,,Octopus,10.9442942264,-85.7113407686
+needs_id,2024-05-25,False,0,,Clathria,10.944378496,-85.7111691072
+needs_id,2024-05-25,False,0,,Eucidaris thouarsii,10.9445470351,-85.7112549379
+needs_id,2024-05-25,False,0,,Eucidaris thouarsii,10.9444832582,-85.7111690994
+needs_id,2024-05-25,False,0,,Clathria,10.9445993773,-85.711254934
+needs_id,2024-05-25,False,0,,Eucidaris thouarsii,10.9439458208,-85.7108257727
+research,2024-05-25,True,1,52313.0,Diodon hystrix,10.9439982774,-85.7109974302
+needs_id,2024-05-25,False,0,,Cephalopholis,10.9441509139,-85.7112549183
+needs_id,2024-05-25,False,0,,Astropyga pulvinata,10.9436135041,-85.7112549144
+needs_id,2024-03-02,False,0,,Myriopathes panamensis,10.9433763512,-85.7125955269
+needs_id,2024-03-02,False,0,,Mithrodia bradleyi,10.9436291608,-85.7122522041
+research,2024-03-02,True,1,85111.0,Muraena lentiginosa,10.9437134306,-85.7126813576
+research,2024-03-03,False,0,295229.0,Aniculus elegans,10.9443033185,-85.7126813576
+needs_id,2024-03-03,False,0,,Eucidaris thouarsii,10.9438819701,-85.712853019
+needs_id,2024-03-03,False,0,,Eucidaris thouarsii,10.9440505095,-85.7130246803
+research,2024-03-02,True,1,49493.0,Thalassoma lucasanum,10.9445401723,-85.7131963417
+needs_id,2024-03-02,False,0,,Diadema mexicanum,10.945214328,-85.712853019
+needs_id,2024-03-02,False,0,,Diadema mexicanum,10.9443716332,-85.7131963417
+needs_id,2024-03-02,False,0,,Cucumaria flamma,10.9446244419,-85.712853019
+needs_id,2024-03-02,False,0,,Cucumaria flamma,10.944203094,-85.712853019
+needs_id,2024-03-02,False,0,,Tubastraea coccinea,10.944203094,-85.7129388497
+needs_id,2024-03-02,False,0,,Tripneustes depressus,10.9443716332,-85.7125955269
+needs_id,2024-03-02,False,0,,Scorpaena mystes,10.9442873636,-85.7130246803
+needs_id,2024-03-03,False,0,,Pocillopora,10.9439502849,-85.7126813576
+needs_id,2024-03-02,False,0,,Phataria unifascialis,10.9443716332,-85.7123380348
+needs_id,2024-03-02,False,0,,Pharia pyramidata,10.9439502849,-85.712853019
+needs_id,2024-03-02,False,0,,Pavona gigantea,10.9436655075,-85.7130246764
+needs_id,2024-03-02,False,0,,Pinctada mazatlanica,10.9436655075,-85.7122307453
+research,2024-03-02,True,1,144017.0,Arothron hispidus,10.9436916751,-85.7134752768
+needs_id,2024-03-02,False,0,,Ascidia sideralis,10.9430698969,-85.7127027967
+needs_id,2024-06-23,False,0,,Pennaria,10.9699023348,-85.7244825736
