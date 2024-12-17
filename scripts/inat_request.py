@@ -1,10 +1,7 @@
-# This script will request the data through the iNaturalist API and store it as JSON files
-# Once you get the JSON files, pandas can be used to manipulate dataframes for visualizations
-
-# start with imports
-import requests # talk to API from iNaturalist
-import json # used here for a prettier output 
-import os # navitating through directories
+# imports
+import requests 
+import json 
+import os 
 
 # add url
 base_url = "https://api.inaturalist.org/v1"
@@ -41,7 +38,7 @@ def get_all_pages(endpoint, base_params={}):
             page += 1
         else:
             break
-    print(f"Retrieved {len(all_results)} total results from {endpoint}.")
+    print(f"Got {len(all_results)} total results from {endpoint}.")
     return all_results
 
 # store json
@@ -50,19 +47,18 @@ def to_json(data, filename):
         file_path = os.path.join(".", "files", "raw", filename)
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
-        print(f"Data saved to {file_path}")
     except Exception as e:
         print(f"Error saving to {file_path}: {e}")
 
 # get observations
 def get_observations(user):
-    print("Getting all observations...")
+    print("Getting observations...")
     params = {"user_id": user}
     return get_all_pages("observations", params)
 
 # get ids
 def get_ids(user):
-    print("Getting all identifications...")
+    print("Getting identifications...")
     params = {"user_id": user}
     return get_all_pages("identifications", params)
 
@@ -77,15 +73,12 @@ def get_profile(user):
 def main():
     observations = get_observations(user)
     if observations:
-        print(f"Retrieved {len(observations)} observations.")
         to_json(observations, "observations.json")
     identifications = get_ids(user)
     if identifications:
-        print(f"Retrieved {len(identifications)} identifications.")
         to_json(identifications, "identifications.json")
     user_profile = get_profile(user)
     if user_profile:
-        print("Retrieved user profile.")
         to_json([user_profile], "user_profile.json")
 
 if __name__ == "__main__":
