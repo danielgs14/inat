@@ -10,7 +10,7 @@ import os # navitating through directories
 base_url = "https://api.inaturalist.org/v1"
 
 # add iNaturalist user
-user = "[your_user]"
+user = "[your_username]"
 
 # define request function
 def get_data(endpoint, params={}):
@@ -24,7 +24,8 @@ def get_data(endpoint, params={}):
         return None
     
 # get all data from all pages 
-# required as without pagination, you can get a max of 200 results
+# required as you can get a max of 200 results without pagination 
+
 def get_all_pages(endpoint, base_params={}):
     all_results = []
     page = 1
@@ -47,11 +48,9 @@ def get_all_pages(endpoint, base_params={}):
 def to_json(data, filename):
     try:
         file_path = os.path.join(".", "files", "raw", filename)
-        
         with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)  # Pretty-print JSON
+            json.dump(data, f, ensure_ascii=False, indent=4)
         print(f"Data saved to {file_path}")
-
     except Exception as e:
         print(f"Error saving to {file_path}: {e}")
 
@@ -76,23 +75,18 @@ def get_profile(user):
 
 # main function to bring you your data
 def main():
-    # Observations
     observations = get_observations(user)
     if observations:
         print(f"Retrieved {len(observations)} observations.")
-        to_json(observations, "inat_observations.json")
-
-    # Identifications
+        to_json(observations, "observations.json")
     identifications = get_ids(user)
     if identifications:
         print(f"Retrieved {len(identifications)} identifications.")
-        to_json(identifications, "inat_identifications.json")
-
-    # User Profile
+        to_json(identifications, "identifications.json")
     user_profile = get_profile(user)
     if user_profile:
         print("Retrieved user profile.")
-        to_json([user_profile], "inat_profile.json")
+        to_json([user_profile], "user_profile.json")
 
 if __name__ == "__main__":
     main()
