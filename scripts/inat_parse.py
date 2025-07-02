@@ -27,6 +27,11 @@ df_observations = df_observations[
 # add underscore to scientific names between genus and species epithet
 df_observations['taxon.name'] = df_observations['taxon.name']
 
+
+#rename id
+df_observations = df_observations.rename(
+    columns = {"id": "inat_obs_id"})
+
 # fix location
 df_observations[['lat', 'lon']] = df_observations['location'].str.split(',', expand=True)
 df_observations = df_observations.drop(columns = ['location'])

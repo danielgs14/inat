@@ -7,7 +7,7 @@ import os
 base_url = "https://api.inaturalist.org/v1"
 
 # add iNaturalist user
-user = "[your_username]"
+user = "d_gonzalez"
 
 # define request function
 def get_data(endpoint, params={}):

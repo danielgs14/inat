@@ -1,0 +1,25 @@
+[
+    {
+        "id": 4153234,
+        "login": "d_gonzalez",
+        "spam": false,
+        "suspended": false,
+        "created_at": "2021-03-29T07:52:40+00:00",
+        "login_autocomplete": "d_gonzalez",
+        "login_exact": "d_gonzalez",
+        "name": "Daniel González-Suárez",
+        "name_autocomplete": "Daniel González-Suárez",
+        "orcid": null,
+        "icon": "https://static.inaturalist.org/attachments/users/icons/4153234/thumb.jpeg?1724183967",
+        "observations_count": 942,
+        "identifications_count": 290,
+        "journal_posts_count": 0,
+        "activity_count": 1232,
+        "species_count": 348,
+        "annotated_observations_count": 14,
+        "universal_search_rank": 942,
+        "roles": [],
+        "site_id": 17,
+        "icon_url": "https://static.inaturalist.org/attachments/users/icons/4153234/medium.jpeg?1724183967"
+    }
+]
