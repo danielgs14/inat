@@ -1,13 +1,14 @@
 # imports
 import requests 
-import json 
+import json  
+import pandas as pd
 import os 
 
-# add url
+# iNaturalist API URLs
 base_url = "https://api.inaturalist.org/v1"
 
 # add iNaturalist user
-user = "[your_username]"
+user = "d_gonzalez"
 
 # define request function
 def get_data(endpoint, params={}):
@@ -20,9 +21,8 @@ def get_data(endpoint, params={}):
         print(f"Error getting {endpoint}: {e}")
         return None
     
-# get all data from all pages 
-# required as you can get a max of 200 results without pagination 
-
+# get all data 
+# required as without pagination, you can get a max of 200 results
 def get_all_pages(endpoint, base_params={}):
     all_results = []
     page = 1
@@ -38,27 +38,47 @@ def get_all_pages(endpoint, base_params={}):
             page += 1
         else:
             break
-    print(f"Got {len(all_results)} total results from {endpoint}.")
+    print(f"Retrieved {len(all_results)} total results from {endpoint}.")
     return all_results
 
-# store json
-def to_json(data, filename):
+# # store json
+# def to_json(data, filename):
+#     try:
+#         file_path = os.path.join("..", "files", "raw", filename)
+#         os.makedirs(os.path.dirname(file_path), exist_ok=True)
+#         with open(file_path, "w", encoding="utf-8") as f:
+#             json.dump(data, f, ensure_ascii=False, indent=4)
+#     except Exception as e:
+#         print(f"Error saving to {file_path}: {e}")
+
+# store csv
+def to_csv(data, filename, fields=None, rename_map=None):
     try:
-        file_path = os.path.join(".", "files", "raw", filename)
-        with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
+        file_path = os.path.join("files", "raw", filename)
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        df = pd.json_normalize(data)
+        if fields:
+            missing = [f for f in fields if f not in df.columns]
+            if missing:
+                print(f"Warning: Skipping missing fields: {missing}")
+            fields_in_df = [f for f in fields if f in df.columns]
+            df = df[fields_in_df]
+        if rename_map:
+            df = df.rename(columns=rename_map)
+        df.to_csv(file_path, index=False, encoding="utf-8")
+        print(f"Saved CSV to {file_path}")
     except Exception as e:
-        print(f"Error saving to {file_path}: {e}")
+        print(f"Error saving CSV to {file_path}: {e}")
 
 # get observations
 def get_observations(user):
-    print("Getting observations...")
+    print("Getting all observations...")
     params = {"user_id": user}
     return get_all_pages("observations", params)
 
 # get ids
 def get_ids(user):
-    print("Getting identifications...")
+    print("Getting all identifications...")
     params = {"user_id": user}
     return get_all_pages("identifications", params)
 
@@ -73,13 +93,79 @@ def get_profile(user):
 def main():
     observations = get_observations(user)
     if observations:
-        to_json(observations, "observations.json")
-    identifications = get_ids(user)
-    if identifications:
-        to_json(identifications, "identifications.json")
+        obs_fields = [
+            "id",
+            "observed_on",
+            "time_observed_at",
+            "species_guess",
+            "taxon.name",
+            "taxon.rank",
+            "taxon.id",
+            "geojson.coordinates",
+            "place_guess",
+            "location",
+            "quality_grade",
+            "user.login"
+        ]
+        obs_rename = {
+            "id": "observation_id",
+            "observed_on": "date",
+            "time_observed_at": "time",
+            "species_guess": "species_guess",
+            "taxon.name": "scientific_name",
+            "taxon.rank": "rank",
+            "taxon.id": "taxon_id",
+            "geojson.coordinates": "coordinates",
+            "place_guess": "place",
+            "location": "lat_lon",
+            "quality_grade": "grade",
+            "user.login": "user"
+        }
+        to_csv(observations, "inat_observations.csv", fields=obs_fields, rename_map=obs_rename)
+
+    # identifications = get_ids(user)
+    # if identifications:
+    #     ids_fields = [
+    #         "id",
+    #         "created_at",
+    #         "taxon.name",
+    #         "taxon.rank",
+    #         "observation.id",
+    #         "observation.species_guess",
+    #         "observation.place_guess",
+    #         "user.login"
+    #     ]
+    #     ids_rename = {
+    #         "id": "identification_id",
+    #         "created_at": "timestamp",
+    #         "taxon.name": "scientific_name",
+    #         "taxon.rank": "rank",
+    #         "observation.id": "observation_id",
+    #         "observation.species_guess": "species_guess",
+    #         "observation.place_guess": "place",
+    #         "user.login": "user"
+    #     }
+    #     to_csv(identifications, "inat_identifications.csv", fields=ids_fields, rename_map=ids_rename)
+
     user_profile = get_profile(user)
     if user_profile:
-        to_json([user_profile], "user_profile.json")
+        profile_fields = [
+            "id",
+            "login",
+            "name",
+            "created_at",
+            "observations_count",
+            "identifications_count"
+        ]
+        profile_rename = {
+            "id": "user_id",
+            "login": "username",
+            "name": "full_name",
+            "created_at": "joined",
+            "observations_count": "total_observations",
+            "identifications_count": "total_identifications"
+        }
+        to_csv(user_profile, "inat_user_profile.csv", fields=profile_fields, rename_map=profile_rename)
 
 if __name__ == "__main__":
     main()
