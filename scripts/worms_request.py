@@ -10,7 +10,6 @@ start_time = time.time()
 df_observations = pd.read_csv("./files/raw/inat_observations.csv")
 
 df_observations.replace({
-    "Branchiomma nigromaculata": "Branchiomma nigromaculatum",
     "Echinaster spinulosus": "Echinaster (Othilia) spinulosus",
     "Eques punctatus": "Equetus punctatus",
     "Holothuria thomasi": "Holothuria (Thymiosycia) thomasi"
